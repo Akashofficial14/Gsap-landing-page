@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: auto;
+    width: 100%;
+    background-color: bisque;
+    padding: 2vw;
+}
+@font-face {
+    font-family: h1keliye;
+    src: url(./NeueMachina-Regular.otf);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    height: 4vw;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2vw; 
+    padding: 3vw;
+}
+.part1{
+    height: 100%;
+    /* width: 15%; */
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part1 h1{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.part1 i{
+    font-size: 2vw;
+    display: inline-block;
+    rotate: 50deg;
+
+}
+.part2{
+    /* width: 85%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3vw;
+}
+.part2 h4{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.part2 button{
+    font-size: 1.5vw;
+    padding: 1vw 3vw;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#sec1{
+    height: 73vh;
+    width: 100%;
+    /* background-color:lightseagreen; */
+    padding: 3vw;
+    display: flex;
+}
+#sec1p1{
+    height: 100%;
+    width: 50%;
+    /* background-color: salmon; */
+    /* padding: 1vw; */
+}
+#sec1p1 h1{
+    font-size: 4.5vw;
+    line-height: 4.8vw;
+    font-weight: 700;
+    font-family: h1keliye;
+}
+#sec1p1 p{
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin: 1.3vw 0;
+}
+#sec1p1 button{
+    font-size: 1.5vw;
+    padding: 1vw 2.2vw;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+#sec1p2{
+    height: 100%;
+    width: 50%;
+    /* background-color: salmon; */
+}
+#sec1p2 img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+#sec2{
+    height: auto;
+    width: 100%;
+    padding-left: 1vw;
+    overflow:hidden;
+    /* background-color: lightsalmon; */
+}
+#sec2p1{
+height: 9vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+/* background-color: red; */
+}
+
+#sec2p1 img{
+    height: 100px;
+    /* width: 200px; width nhi dena hai kyoki fir width ke hisab se adjust nhi ho payegi */
+    object-fit: cover;
+}
+#sec2p2{
+    padding-left:2vw;
+    margin-top: 5vw;
+   height: 10vh;
+   width: 70%;
+   /* background-color: red;  */
+   display: flex;
+   gap:1vw;
+   justify-content: center;
+   align-items: center;
+}
+#sec2p2 h2{
+    font-size: 2vw;
+    font-weight: 600;
+    background-color: rgb(81, 222, 81);
+    padding: 0.7vw;
+    border-radius: 10px;
+}
+#sec2p2 p{
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+#sec2p3{
+    height: auto;
+    width: 100%;
+    padding: 8vh 0;
+    /* background-color: lightsalmon; */
+    display: flex;
+     gap:2vw;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content:center;
+}
+.sec2p3a1{
+    height: 40vh;
+    width: 47%;
+    /* background-color: lightseagreen; */
+    border-radius: 50px;
+    display: flex;
+    overflow: hidden;
+    border:3px solid black
+}
+#abcd1{
+    height: 100%;
+    width: 50%;
+    padding: 2vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+}
+#abcd2{
+    height: 100%;
+    width: 50%;
+    /* background-color: slateblue; */
+}
+#abcd2 img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+#abc1{
+    background-color: black;
+}
+#abcd1 h3{
+    font-size: 2vw;
+    background-color: rgb(90, 216, 90);
+    border-radius: 20px;
+    padding: 0.5vw;
+    font-family: h1keliye;
+}
+#btm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1vw;
+}
+#btm h5{
+    font-size: 1.5vw;
+     font-family: h1keliye;
+}
+#btm i{
+    font-size: 2vw;
+    border:1px solid black;
+    padding:0.5vw;
+    background-color: black;
+    color:white;
+    border-radius: 50%;
+}
+#btm #i2{
+    background-color: white;
+    color:black;
+
+}
+#btm h5{
+    font-size: 1.5vw;
+}
+#btm .h{
+    color:white;
+}
+#abcd1 .h3{
+    background-color: white;
+    color: black;
+
+}
