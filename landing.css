@@ -234,3 +234,129 @@ justify-content: space-between;
     color: black;
 
 }
+#sec3{
+    height: 100vh;
+    width: 100%;
+    /* background-color: lightseagreen; */
+    padding: 0 2vw;
+    overflow: hidden;
+}
+#sec3p1{
+    height: 42vh;
+    width: 100%;
+    border-radius: 50px;
+    /* background-color: salmon; */
+     display: flex;
+    background-color: rgb(227, 229, 231);
+}
+#sec3p1a{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightslategray; */
+    padding: 3vw;
+}
+#sec3p1a h3{
+font-family: h1keliye;
+font-size: 2vw;
+font-weight: 700;
+}
+#sec3p1a p{
+    font-size: 1.4vw;
+    font-weight: 500;
+    padding: 1.3vw 0;
+}
+#sec3p1a button{
+    font-family: h1keliye;
+    padding: 1vw 2vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+}
+#sec3p1b{
+     height: 100%;
+    width: 50%;
+     padding-left: 14vw;
+}
+    
+#sec3p1b img{
+    height: 100%;
+    width: 70%;
+}
+#sec3p2{
+    height: 16vh;
+    width: 70%;
+    /* background-color: lightsalmon; */
+}
+#sec3p2a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:2vw;
+    padding-left: 3vw;
+
+}
+#sec3p2a h3{
+    background-color: rgb(71, 220, 71);
+    font-size: 2.5vw;
+    padding: 0.5vw;
+    font-family: h1keliye;
+    border-radius: 20px;
+}
+#sec3p2a p{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#sec3p3{
+    height: 42vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    gap:1vw;
+    border-radius: 50px;
+   
+}
+.xyz{
+    height: 100%;
+    width: 33.33%;
+    /* background-color: aqua; */
+    padding: 4vw 3vw;
+     /* border-right: 1px solid white; */
+}
+#akash{
+    height: 100%;
+    width: 100%;
+    border-right: 1px solid white;
+    
+}
+.xyz p{
+    font-size: 1.4vw;
+    font-weight: 500;
+    padding-bottom: 1vw;
+    color: white;
+}
+.xyz button{
+    padding:1vw 0;
+    padding-left: 2vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color:rgb(98, 207, 98);
+    border: none;
+    background-color: black;
+    /* border-radius: 30px; */
+}
+.sec3part2{
+display: flex;
+align-items: center;
+/* background-color: lightseagreen; */
+
+}
+#sec3p3 i{
+    font-size: 2.5vw;
+       color:rgb(98, 207, 98);
+    border: none;
+  
+}

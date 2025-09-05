@@ -49,7 +49,7 @@ function page2Animation(){
      trigger:"#sec2",
      scroller:"body",
     //  markers:true,
-     start:"top 75%",
+     start:"top 60%",
      end:"top 0",
      scrub:2,
     //  overflow:"hidden"
@@ -86,3 +86,46 @@ tl2.from("#sec2p3 .line4",{
 
 page1Animation()
 page2Animation()
+
+   var tl3=gsap.timeline({
+    scrollTrigger:{
+     trigger:"#sec3",
+     scroller:"body",
+     markers:true,
+     start:"top 60%",
+     end:"top 0",
+     scrub:2,
+    //  overflow:"hidden"
+}
+   })
+   tl3.from("#sec3p1 h3",{
+     x:-300,
+     opacity:0,
+     duration:0.1
+   })
+   tl3.from("#sec3p1 p",{
+     x:-300,
+     opacity:0,
+duration:0.7
+   })
+   tl3.from("#sec3p1 button",{
+     x:-300,
+     opacity:0,
+     duration:0.7
+   })
+   tl3.from("#sec3p1b img",{
+     x:300,
+     opacity:0,
+     duration:0.5
+   },"-=0.6")
+   tl3.from("#sec3p2 ",{
+     y:50,
+     opacity:0,
+     duration:0.7
+   })
+   tl3.from(".xyz",{
+    y:100,
+    opacity:0,
+    duration:1,
+    stagger:0.4
+   })
