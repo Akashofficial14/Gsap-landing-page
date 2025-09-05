@@ -83,15 +83,12 @@ tl2.from("#sec2p3 .line4",{
     duration:0.6
 },"akku")
 }
-
-page1Animation()
-page2Animation()
-
+function page3Animation(){
    var tl3=gsap.timeline({
     scrollTrigger:{
      trigger:"#sec3",
      scroller:"body",
-     markers:true,
+    //  markers:true,
      start:"top 60%",
      end:"top 0",
      scrub:2,
@@ -129,3 +126,8 @@ duration:0.7
     duration:1,
     stagger:0.4
    })
+}
+page1Animation()
+page2Animation()
+page3Animation()
+
